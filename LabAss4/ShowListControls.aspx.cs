@@ -23,5 +23,10 @@ namespace LabAss4
             RadioButtonList1.DataSource = towns;
             RadioButtonList1.DataBind();*/
         }
+
+        protected void ListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
