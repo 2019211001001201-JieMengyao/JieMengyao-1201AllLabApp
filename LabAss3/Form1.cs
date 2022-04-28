@@ -182,6 +182,11 @@ namespace LabAss3
         {
 
         }
+
+        private void txtCustomerName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
     }
     

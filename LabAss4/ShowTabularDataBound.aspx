@@ -101,7 +101,7 @@
                 </asp:ListView>
             </p></div>
 
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:SampleDatabaseConnectionString2 %>" SelectCommand="SELECT [Username], [Password] FROM [Logon]"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:SampleDatabaseConnectionString %>" SelectCommand="SELECT [Username], [Password] FROM [Logon]" ProviderName="System.Data.SqlClient"></asp:SqlDataSource>
 
     </form>
 </body>

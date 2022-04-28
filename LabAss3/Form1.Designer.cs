@@ -77,6 +77,7 @@
             this.txtCustomerName.Name = "txtCustomerName";
             this.txtCustomerName.Size = new System.Drawing.Size(207, 25);
             this.txtCustomerName.TabIndex = 2;
+            this.txtCustomerName.TextChanged += new System.EventHandler(this.txtCustomerName_TextChanged);
             // 
             // groupBox1
             // 
@@ -225,7 +226,7 @@
             this.dtgCustomer.Name = "dtgCustomer";
             this.dtgCustomer.RowHeadersWidth = 51;
             this.dtgCustomer.RowTemplate.Height = 27;
-            this.dtgCustomer.Size = new System.Drawing.Size(436, 392);
+            this.dtgCustomer.Size = new System.Drawing.Size(652, 392);
             this.dtgCustomer.TabIndex = 14;
             this.dtgCustomer.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgCustomer_CellContentClick);
             // 
@@ -262,7 +263,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(940, 498);
+            this.ClientSize = new System.Drawing.Size(1156, 458);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.lblID);
             this.Controls.Add(this.btnUpdate);
